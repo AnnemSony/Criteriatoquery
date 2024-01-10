@@ -1,0 +1,22 @@
+# virtual environment directory
+venv
+
+# cached files
+__pycache__
+app/__pycache__
+app/lib/__pycache__
+app/lib/config.py
+app/model/bert-finetuned-ner
+app/model/negdetect/model/biomedBERT
+
+tools/standoff2conll/__pycache__
+
+tools/FB2Chia/input_data/*.txt
+tools/FB2Chia/output_data/*.txt
+tools/FB2Chia/output_data/*.ann
+
+tools/brat2semeval/*.txt
+
+corpus/data_dir/*.zip
+
+re_train/additional_models/biobert_v1.1_pubmed/*
